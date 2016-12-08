@@ -53,7 +53,7 @@ Parameters:
 
     **fit(data)**
 
-        Clusters the data
+      Clusters the data
 
       Parameters:
          **data** (*np.ndarray*) -- The data to cluster
