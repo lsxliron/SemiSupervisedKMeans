@@ -6,7 +6,7 @@ import numpy as np
 
 class KMeans(object):
 
-    def __init__(self, k, threshold=0.0001, max_iter=30, metric='euclidean', known_data=None, alpha=1, verbose=False):
+    def __init__(self, k, threshold=0.0001, max_iter=30, metric='euclidean', known_data=None, alpha=0.5, verbose=False):
         """
             :param k: The number of clusters
             :param threshold: The convergance threshold (default: 0.0001)
@@ -17,8 +17,9 @@ class KMeans(object):
                 does not contains known labels should be represented as empty list. For example, if we have a dataset and
                 we know some points for classes 1 and 3, we would have  
                 ```known_data=[np.array([1,2,3,4]), np.array([]), np.array([19,20,21])]```
-            :param alpha: When using semi supervised clustering, we can weigh the known data points differently (default: 1)
-              alpha=1 is equivalent to unsupervised clustering.
+            :param alpha: When using semi supervised
+                    clustering, we can weigh the known data points differently.
+                    The range of this paremeter is between 0 <= alpha <= 1.
             :param verbose: Prints iterations and convergence rate when set to True (default: False)
 
             :type k: int
