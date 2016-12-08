@@ -9,6 +9,10 @@ pip install -r requirements.txt
 ### Usage:
 You can run the exmple `python example.py`
 
+### Documentation:  
+
+Full documentation can be found in the `docs` folder
+
 ---
 # API
 
@@ -41,23 +45,21 @@ Parameters:
     np.array([19,20,21])]`"
 
   * **alpha** (*float*) -- When using semi supervised
-    clustering, we can weigh the known data points differently
-    (default: 1) alpha=1 is equivalent to unsupervised clustering.
-
+    clustering, we can weigh the known data points differently.
+    The range of this paremeter is between 0 <= alpha <= 1.
+    
   * **verbose** (*bool*) -- Prints iterations and convergence
     rate when set to True (default: False)
 
     **fit(data)**
 
-        Clusters the data
+      Clusters the data
 
       Parameters:
          **data** (*np.ndarray*) -- The data to cluster
 
-    
-    **fit_predict(data)**
-
-      Clusteres the data and returns tha labels
+    **fit_predict(data)**  
+    Clusteres the data and returns tha labels
       
       Parameters:
         **data** (*np.ndarray*) -- The data to cluster
@@ -116,7 +118,7 @@ Parameters:
 
   * **alpha** (*float*) -- When using semi supervised
     clustering, we can weigh the known data points differently.
-    The range of this paremeter is between 0 < lpha < 1.
+    The range of this paremeter is between 0 <= alpha <= 1.
 
   * **verbose** (*bool*) -- Prints iterations and convergence
     rate when set to True.
