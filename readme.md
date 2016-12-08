@@ -54,10 +54,8 @@ Parameters:
       Parameters:
          **data** (*np.ndarray*) -- The data to cluster
 
-    
-    **fit_predict(data)**
-
-      Clusteres the data and returns tha labels
+    **fit_predict(data)**  
+    Clusteres the data and returns tha labels
       
       Parameters:
         **data** (*np.ndarray*) -- The data to cluster
