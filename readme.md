@@ -9,7 +9,10 @@ pip install -r requirements.txt
 ### Usage:
 You can run the exmple `python example.py`
 
-** Full documentation can be found in the `docs` folder**
+### Documentation:  
+
+Full documentation can be found in the `docs` folder
+
 ---
 # API
 
