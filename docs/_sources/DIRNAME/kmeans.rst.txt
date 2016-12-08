@@ -1,0 +1,22 @@
+KMeans
+======
+
+.. automodule:: kmeans
+
+   
+   
+   
+
+   
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+   
+      KMeans
+   
+   
+
+   
+   
+   

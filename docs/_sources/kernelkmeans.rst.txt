@@ -1,0 +1,7 @@
+kernelkmeans module
+===================
+
+.. automodule:: kernelkmeans
+    :members:
+    :undoc-members:
+    :show-inheritance:

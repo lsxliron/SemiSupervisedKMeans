@@ -1,0 +1,9 @@
+KernelKMeans
+============
+
+.. toctree::
+   :maxdepth: 4
+
+   
+   kmeans
+   kernelkmeans

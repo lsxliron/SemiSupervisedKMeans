@@ -1,0 +1,22 @@
+KernelKMeans
+============
+
+.. automodule:: kernelkmeans
+
+   
+   
+   
+
+   
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+   
+      KernelKMeans
+   
+   
+
+   
+   
+   
